@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Connect_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MCC-tG-UEc" userLabel="A1">
+                                <rect key="frame" x="165" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZQk-b1-gPv" userLabel="A2">
+                                <rect key="frame" x="165" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mL4-px-xCx" userLabel="A3">
+                                <rect key="frame" x="165" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbY-nU-37c" userLabel="A4">
+                                <rect key="frame" x="165" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLD-pb-fKr" userLabel="A5">
+                                <rect key="frame" x="165" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0y8-Oc-4Cl" userLabel="A6">
+                                <rect key="frame" x="165" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRK-nG-1h1" userLabel="B1">
+                                <rect key="frame" x="282" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zIT-IT-LCT" userLabel="B2">
+                                <rect key="frame" x="282" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gOl-DI-F6c" userLabel="B3">
+                                <rect key="frame" x="282" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8eh-R5-ZZH" userLabel="B4">
+                                <rect key="frame" x="282" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXW-AO-AaN" userLabel="B5">
+                                <rect key="frame" x="282" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Lk-1k-n1G" userLabel="B6">
+                                <rect key="frame" x="282" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9xH-U4-H3Y" userLabel="C1">
+                                <rect key="frame" x="403" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avy-kr-K1i" userLabel="C2">
+                                <rect key="frame" x="403" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tuo-gM-CPm" userLabel="C3">
+                                <rect key="frame" x="403" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRZ-Ip-GvO" userLabel="C4">
+                                <rect key="frame" x="403" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LNf-Yi-U93" userLabel="C5">
+                                <rect key="frame" x="403" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WmL-ZU-Zsx" userLabel="C6">
+                                <rect key="frame" x="403" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7X2-EM-Dig" userLabel="D1">
+                                <rect key="frame" x="517" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1j9-s4-aSL" userLabel="D2">
+                                <rect key="frame" x="517" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wsG-25-cCZ" userLabel="D3">
+                                <rect key="frame" x="517" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="out-Mv-cJB" userLabel="D4">
+                                <rect key="frame" x="517" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e1b-30-Kfb" userLabel="D5">
+                                <rect key="frame" x="517" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="npl-AG-ohm" userLabel="D6">
+                                <rect key="frame" x="517" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O4w-lH-CR3" userLabel="E1">
+                                <rect key="frame" x="636" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r41-SR-CV2" userLabel="E2">
+                                <rect key="frame" x="636" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cUq-Ky-bww" userLabel="E3">
+                                <rect key="frame" x="636" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zBq-5L-BgV" userLabel="E4">
+                                <rect key="frame" x="636" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j20-ve-fuv" userLabel="E5">
+                                <rect key="frame" x="636" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fBp-jg-x2H" userLabel="E6">
+                                <rect key="frame" x="636" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h8L-X0-xWI" userLabel="F1">
+                                <rect key="frame" x="752" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LW1-zK-POK" userLabel="F2">
+                                <rect key="frame" x="752" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g7e-Kg-14t" userLabel="F3">
+                                <rect key="frame" x="752" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yMm-yB-iah" userLabel="F4">
+                                <rect key="frame" x="752" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ioi-dt-CIR" userLabel="F5">
+                                <rect key="frame" x="752" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7m-NW-Fjh" userLabel="F6">
+                                <rect key="frame" x="752" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qwy-vc-DeD" userLabel="G1">
+                                <rect key="frame" x="869" y="625" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3hJ-sh-5Yl" userLabel="G2">
+                                <rect key="frame" x="869" y="520" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-0q-V1M" userLabel="G3">
+                                <rect key="frame" x="869" y="411" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k6D-Ru-18L" userLabel="G4">
+                                <rect key="frame" x="869" y="301" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LRZ-YW-xzt" userLabel="G5">
+                                <rect key="frame" x="869" y="195" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="99n-hW-JTF" userLabel="G6">
+                                <rect key="frame" x="869" y="85" width="124" height="110"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="gfR-T7-bIV">
+                                <rect key="frame" x="169" y="85" width="828" height="650"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="828" id="ZhA-af-wnt"/>
+                                    <constraint firstAttribute="height" constant="650" id="k6w-Gj-zwI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C O N N E C T  4" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6y-GB-DsA">
+                                <rect key="frame" x="0.0" y="41" width="142" height="738"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="66"/>
+                                <color key="textColor" red="0.10980392156862745" green="0.47058823529411764" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmv-mW-lcO">
+                                <rect key="frame" x="204" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="otF-4x-elC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOd-Dj-YVh">
+                                <rect key="frame" x="321" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="piH-U2-TNb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUL-U1-Vyp">
+                                <rect key="frame" x="442" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnP-rR-cjU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNN-Mj-zoj">
+                                <rect key="frame" x="560" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="80a-JV-wSd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWH-YC-Hqb">
+                                <rect key="frame" x="675" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jGE-jA-21b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vL7-Ns-CkA">
+                                <rect key="frame" x="791" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="82R-HH-xr9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVk-Mb-kIA">
+                                <rect key="frame" x="908" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZK5-m0-hvX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="gfR-T7-bIV" secondAttribute="trailing" constant="11" id="VK5-1i-uEc"/>
+                            <constraint firstItem="gfR-T7-bIV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="fhf-WY-nW7"/>
+                            <constraint firstItem="gfR-T7-bIV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="69:64" id="lD5-KX-uzi"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outletCollection property="firstRow" destination="MCC-tG-UEc" collectionClass="NSMutableArray" id="jLH-0x-bJ3"/>
+                        <outletCollection property="firstRow" destination="ZQk-b1-gPv" collectionClass="NSMutableArray" id="caT-O7-dXn"/>
+                        <outletCollection property="firstRow" destination="mL4-px-xCx" collectionClass="NSMutableArray" id="UCB-dO-Cw1"/>
+                        <outletCollection property="firstRow" destination="xbY-nU-37c" collectionClass="NSMutableArray" id="bAX-O7-3VZ"/>
+                        <outletCollection property="firstRow" destination="eLD-pb-fKr" collectionClass="NSMutableArray" id="AxG-Ym-nz5"/>
+                        <outletCollection property="firstRow" destination="0y8-Oc-4Cl" collectionClass="NSMutableArray" id="I3s-RB-cft"/>
+                        <outletCollection property="secondRow" destination="lRK-nG-1h1" collectionClass="NSMutableArray" id="PbF-fC-yoE"/>
+                        <outletCollection property="secondRow" destination="zIT-IT-LCT" collectionClass="NSMutableArray" id="aV0-Bs-CYJ"/>
+                        <outletCollection property="secondRow" destination="gOl-DI-F6c" collectionClass="NSMutableArray" id="tDu-Nv-Aex"/>
+                        <outletCollection property="secondRow" destination="8eh-R5-ZZH" collectionClass="NSMutableArray" id="4Hi-2s-PDl"/>
+                        <outletCollection property="secondRow" destination="tXW-AO-AaN" collectionClass="NSMutableArray" id="O8C-PJ-D2o"/>
+                        <outletCollection property="secondRow" destination="2Lk-1k-n1G" collectionClass="NSMutableArray" id="JGm-LM-3HD"/>
+                        <outletCollection property="thirdRow" destination="9xH-U4-H3Y" collectionClass="NSMutableArray" id="PCV-gZ-KMF"/>
+                        <outletCollection property="thirdRow" destination="Avy-kr-K1i" collectionClass="NSMutableArray" id="4er-pS-MWx"/>
+                        <outletCollection property="thirdRow" destination="Tuo-gM-CPm" collectionClass="NSMutableArray" id="B1k-GM-t8m"/>
+                        <outletCollection property="thirdRow" destination="cRZ-Ip-GvO" collectionClass="NSMutableArray" id="xFH-rd-0Hk"/>
+                        <outletCollection property="thirdRow" destination="LNf-Yi-U93" collectionClass="NSMutableArray" id="y22-Xs-fco"/>
+                        <outletCollection property="thirdRow" destination="WmL-ZU-Zsx" collectionClass="NSMutableArray" id="4vs-dd-sIJ"/>
+                        <outletCollection property="fourthRow" destination="7X2-EM-Dig" collectionClass="NSMutableArray" id="J7b-nT-CpT"/>
+                        <outletCollection property="fourthRow" destination="1j9-s4-aSL" collectionClass="NSMutableArray" id="5o5-ZO-b89"/>
+                        <outletCollection property="fourthRow" destination="wsG-25-cCZ" collectionClass="NSMutableArray" id="Rxx-3Z-vrZ"/>
+                        <outletCollection property="fourthRow" destination="out-Mv-cJB" collectionClass="NSMutableArray" id="2o0-36-oCb"/>
+                        <outletCollection property="fourthRow" destination="e1b-30-Kfb" collectionClass="NSMutableArray" id="4rW-0Q-5en"/>
+                        <outletCollection property="fourthRow" destination="npl-AG-ohm" collectionClass="NSMutableArray" id="Rbu-8L-bPF"/>
+                        <outletCollection property="fifthRow" destination="O4w-lH-CR3" collectionClass="NSMutableArray" id="4J2-9z-hPn"/>
+                        <outletCollection property="fifthRow" destination="r41-SR-CV2" collectionClass="NSMutableArray" id="csr-uI-TI8"/>
+                        <outletCollection property="fifthRow" destination="cUq-Ky-bww" collectionClass="NSMutableArray" id="pEn-RB-n69"/>
+                        <outletCollection property="fifthRow" destination="zBq-5L-BgV" collectionClass="NSMutableArray" id="Byz-ml-OwD"/>
+                        <outletCollection property="fifthRow" destination="j20-ve-fuv" collectionClass="NSMutableArray" id="Bhn-Tj-mRw"/>
+                        <outletCollection property="fifthRow" destination="fBp-jg-x2H" collectionClass="NSMutableArray" id="cwe-2q-Cli"/>
+                        <outletCollection property="sixthRow" destination="h8L-X0-xWI" collectionClass="NSMutableArray" id="fSJ-5z-amN"/>
+                        <outletCollection property="sixthRow" destination="LW1-zK-POK" collectionClass="NSMutableArray" id="aOe-SA-qlZ"/>
+                        <outletCollection property="sixthRow" destination="g7e-Kg-14t" collectionClass="NSMutableArray" id="tXg-M7-hw3"/>
+                        <outletCollection property="sixthRow" destination="yMm-yB-iah" collectionClass="NSMutableArray" id="G7m-fW-4Xb"/>
+                        <outletCollection property="sixthRow" destination="Ioi-dt-CIR" collectionClass="NSMutableArray" id="2Zj-yf-2sa"/>
+                        <outletCollection property="sixthRow" destination="U7m-NW-Fjh" collectionClass="NSMutableArray" id="TbP-mw-ylz"/>
+                        <outletCollection property="seventhRow" destination="qwy-vc-DeD" collectionClass="NSMutableArray" id="lwB-MJ-gEU"/>
+                        <outletCollection property="seventhRow" destination="3hJ-sh-5Yl" collectionClass="NSMutableArray" id="Cwc-BP-x58"/>
+                        <outletCollection property="seventhRow" destination="8bd-0q-V1M" collectionClass="NSMutableArray" id="rCr-BL-gQO"/>
+                        <outletCollection property="seventhRow" destination="k6D-Ru-18L" collectionClass="NSMutableArray" id="Xes-a0-lQY"/>
+                        <outletCollection property="seventhRow" destination="LRZ-YW-xzt" collectionClass="NSMutableArray" id="dTT-Lt-BVT"/>
+                        <outletCollection property="seventhRow" destination="99n-hW-JTF" collectionClass="NSMutableArray" id="heS-kN-Aj3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="506"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="board.png" width="640" height="480"/>
+    </resources>
+</document>

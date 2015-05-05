@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D804EF7E1ACB40EC007B321C /* AddTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D804EF7D1ACB40EC007B321C /* AddTextViewController.swift */; };
+		D8124A421AC5CA5E00509488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8124A411AC5CA5E00509488 /* AppDelegate.swift */; };
+		D8124A451AC5CA5E00509488 /* Change_My_Pic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8124A431AC5CA5E00509488 /* Change_My_Pic.xcdatamodeld */; };
+		D8124A4A1AC5CA5E00509488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8124A481AC5CA5E00509488 /* Main.storyboard */; };
+		D8124A4C1AC5CA5E00509488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8124A4B1AC5CA5E00509488 /* Images.xcassets */; };
+		D8124A4F1AC5CA5E00509488 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8124A4D1AC5CA5E00509488 /* LaunchScreen.xib */; };
+		D8124A5B1AC5CA5F00509488 /* Change_My_PicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8124A5A1AC5CA5F00509488 /* Change_My_PicTests.swift */; };
+		D8124A651AC5CB7700509488 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8124A641AC5CB7700509488 /* SignInViewController.swift */; };
+		D8BCDCED1ACC4CD7003622A6 /* PublishPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDCEC1ACC4CD7003622A6 /* PublishPicViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8124A551AC5CA5F00509488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8124A341AC5CA5E00509488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8124A3B1AC5CA5E00509488;
+			remoteInfo = "Change My Pic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D804EF7D1ACB40EC007B321C /* AddTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTextViewController.swift; sourceTree = "<group>"; };
+		D8124A3C1AC5CA5E00509488 /* Change My Pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Change My Pic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8124A401AC5CA5E00509488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8124A411AC5CA5E00509488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8124A441AC5CA5E00509488 /* Change_My_Pic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Change_My_Pic.xcdatamodel; sourceTree = "<group>"; };
+		D8124A491AC5CA5E00509488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8124A4B1AC5CA5E00509488 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8124A4E1AC5CA5E00509488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8124A541AC5CA5F00509488 /* Change My PicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Change My PicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8124A591AC5CA5F00509488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8124A5A1AC5CA5F00509488 /* Change_My_PicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_My_PicTests.swift; sourceTree = "<group>"; };
+		D8124A641AC5CB7700509488 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D8BCDCEC1ACC4CD7003622A6 /* PublishPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishPicViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8124A391AC5CA5E00509488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8124A511AC5CA5F00509488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8124A331AC5CA5E00509488 = {
+			isa = PBXGroup;
+			children = (
+				D8124A3E1AC5CA5E00509488 /* Change My Pic */,
+				D8124A571AC5CA5F00509488 /* Change My PicTests */,
+				D8124A3D1AC5CA5E00509488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8124A3D1AC5CA5E00509488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8124A3C1AC5CA5E00509488 /* Change My Pic.app */,
+				D8124A541AC5CA5F00509488 /* Change My PicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8124A3E1AC5CA5E00509488 /* Change My Pic */ = {
+			isa = PBXGroup;
+			children = (
+				D8124A411AC5CA5E00509488 /* AppDelegate.swift */,
+				D8124A641AC5CB7700509488 /* SignInViewController.swift */,
+				D804EF7D1ACB40EC007B321C /* AddTextViewController.swift */,
+				D8BCDCEC1ACC4CD7003622A6 /* PublishPicViewController.swift */,
+				D8124A481AC5CA5E00509488 /* Main.storyboard */,
+				D8124A4B1AC5CA5E00509488 /* Images.xcassets */,
+				D8124A4D1AC5CA5E00509488 /* LaunchScreen.xib */,
+				D8124A431AC5CA5E00509488 /* Change_My_Pic.xcdatamodeld */,
+				D8124A3F1AC5CA5E00509488 /* Supporting Files */,
+			);
+			path = "Change My Pic";
+			sourceTree = "<group>";
+		};
+		D8124A3F1AC5CA5E00509488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8124A401AC5CA5E00509488 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8124A571AC5CA5F00509488 /* Change My PicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8124A5A1AC5CA5F00509488 /* Change_My_PicTests.swift */,
+				D8124A581AC5CA5F00509488 /* Supporting Files */,
+			);
+			path = "Change My PicTests";
+			sourceTree = "<group>";
+		};
+		D8124A581AC5CA5F00509488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8124A591AC5CA5F00509488 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8124A3B1AC5CA5E00509488 /* Change My Pic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8124A5E1AC5CA5F00509488 /* Build configuration list for PBXNativeTarget "Change My Pic" */;
+			buildPhases = (
+				D8124A381AC5CA5E00509488 /* Sources */,
+				D8124A391AC5CA5E00509488 /* Frameworks */,
+				D8124A3A1AC5CA5E00509488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Change My Pic";
+			productName = "Change My Pic";
+			productReference = D8124A3C1AC5CA5E00509488 /* Change My Pic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8124A531AC5CA5F00509488 /* Change My PicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8124A611AC5CA5F00509488 /* Build configuration list for PBXNativeTarget "Change My PicTests" */;
+			buildPhases = (
+				D8124A501AC5CA5F00509488 /* Sources */,
+				D8124A511AC5CA5F00509488 /* Frameworks */,
+				D8124A521AC5CA5F00509488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8124A561AC5CA5F00509488 /* PBXTargetDependency */,
+			);
+			name = "Change My PicTests";
+			productName = "Change My PicTests";
+			productReference = D8124A541AC5CA5F00509488 /* Change My PicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8124A341AC5CA5E00509488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Joe Lucero";
+				TargetAttributes = {
+					D8124A3B1AC5CA5E00509488 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D8124A531AC5CA5F00509488 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D8124A3B1AC5CA5E00509488;
+					};
+				};
+			};
+			buildConfigurationList = D8124A371AC5CA5E00509488 /* Build configuration list for PBXProject "Change My Pic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8124A331AC5CA5E00509488;
+			productRefGroup = D8124A3D1AC5CA5E00509488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8124A3B1AC5CA5E00509488 /* Change My Pic */,
+				D8124A531AC5CA5F00509488 /* Change My PicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8124A3A1AC5CA5E00509488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8124A4A1AC5CA5E00509488 /* Main.storyboard in Resources */,
+				D8124A4F1AC5CA5E00509488 /* LaunchScreen.xib in Resources */,
+				D8124A4C1AC5CA5E00509488 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8124A521AC5CA5F00509488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8124A381AC5CA5E00509488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8124A451AC5CA5E00509488 /* Change_My_Pic.xcdatamodeld in Sources */,
+				D8124A421AC5CA5E00509488 /* AppDelegate.swift in Sources */,
+				D8BCDCED1ACC4CD7003622A6 /* PublishPicViewController.swift in Sources */,
+				D8124A651AC5CB7700509488 /* SignInViewController.swift in Sources */,
+				D804EF7E1ACB40EC007B321C /* AddTextViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8124A501AC5CA5F00509488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8124A5B1AC5CA5F00509488 /* Change_My_PicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8124A561AC5CA5F00509488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8124A3B1AC5CA5E00509488 /* Change My Pic */;
+			targetProxy = D8124A551AC5CA5F00509488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8124A481AC5CA5E00509488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8124A491AC5CA5E00509488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8124A4D1AC5CA5E00509488 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8124A4E1AC5CA5E00509488 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8124A5C1AC5CA5F00509488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8124A5D1AC5CA5F00509488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8124A5F1AC5CA5F00509488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Change My Pic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8124A601AC5CA5F00509488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Change My Pic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8124A621AC5CA5F00509488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Change My PicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Change My Pic.app/Change My Pic";
+			};
+			name = Debug;
+		};
+		D8124A631AC5CA5F00509488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Change My PicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Change My Pic.app/Change My Pic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8124A371AC5CA5E00509488 /* Build configuration list for PBXProject "Change My Pic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8124A5C1AC5CA5F00509488 /* Debug */,
+				D8124A5D1AC5CA5F00509488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8124A5E1AC5CA5F00509488 /* Build configuration list for PBXNativeTarget "Change My Pic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8124A5F1AC5CA5F00509488 /* Debug */,
+				D8124A601AC5CA5F00509488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8124A611AC5CA5F00509488 /* Build configuration list for PBXNativeTarget "Change My PicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8124A621AC5CA5F00509488 /* Debug */,
+				D8124A631AC5CA5F00509488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8124A431AC5CA5E00509488 /* Change_My_Pic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8124A441AC5CA5E00509488 /* Change_My_Pic.xcdatamodel */,
+			);
+			currentVersion = D8124A441AC5CA5E00509488 /* Change_My_Pic.xcdatamodel */;
+			path = Change_My_Pic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D8124A341AC5CA5E00509488 /* Project object */;
+}

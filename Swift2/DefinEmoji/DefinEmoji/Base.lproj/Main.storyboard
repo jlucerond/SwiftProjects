@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Z4f-oL-in6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Emoji Dictionary-->
+        <scene sceneID="tJB-m2-HrO">
+            <objects>
+                <viewController id="AE6-9Z-gF0" customClass="JoesTableViewController" customModule="DefinEmoji" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tk0-xQ-Cy3"/>
+                        <viewControllerLayoutGuide type="bottom" id="M8P-43-SRh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="peu-cx-aST">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="eSz-iT-HsQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Emoji Dictionary" id="kij-v1-Cea"/>
+                    <connections>
+                        <outlet property="joesTableView" destination="eSz-iT-HsQ" id="FbG-f0-MbD"/>
+                        <segue destination="ZOs-nx-0Kh" kind="show" identifier="showMeMyEmoji" id="DFD-Vb-56q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Dz-9n-IDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-113" y="498"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="7BE-3u-xkH">
+            <objects>
+                <viewController id="ZOs-nx-0Kh" customClass="DetailViewController" customModule="DefinEmoji" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Sm-V0-Dri"/>
+                        <viewControllerLayoutGuide type="bottom" id="bcN-vj-jZl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aB0-Zg-x1a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the Emoji Defintion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPn-M0-mnp">
+                                <rect key="frame" x="16" y="393" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lg2-Jn-BbK">
+                                <rect key="frame" x="16" y="114" width="568" height="179"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="jPn-M0-mnp" secondAttribute="trailing" id="D91-j5-xFY"/>
+                            <constraint firstItem="bcN-vj-jZl" firstAttribute="top" secondItem="jPn-M0-mnp" secondAttribute="bottom" constant="79" id="Xp2-Yd-A3P"/>
+                            <constraint firstItem="jPn-M0-mnp" firstAttribute="top" secondItem="lg2-Jn-BbK" secondAttribute="bottom" constant="100" id="ngM-xc-vYe"/>
+                            <constraint firstItem="lg2-Jn-BbK" firstAttribute="leading" secondItem="aB0-Zg-x1a" secondAttribute="leadingMargin" id="nsr-Je-Ggo"/>
+                            <constraint firstItem="jPn-M0-mnp" firstAttribute="leading" secondItem="aB0-Zg-x1a" secondAttribute="leadingMargin" id="t0B-fA-7yn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lg2-Jn-BbK" secondAttribute="trailing" id="zOG-aw-wjS"/>
+                            <constraint firstItem="lg2-Jn-BbK" firstAttribute="top" secondItem="4Sm-V0-Dri" secondAttribute="bottom" constant="50" id="zht-Mk-r0S"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Xp2-Yd-A3P"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="One-c1-c2t"/>
+                    <connections>
+                        <outlet property="detailEmojiDefinition" destination="jPn-M0-mnp" id="iRb-wi-vLd"/>
+                        <outlet property="detailEmojiPicture" destination="lg2-Jn-BbK" id="3r3-1K-mQr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ApB-5L-gEY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="498"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eS3-2D-SY1">
+            <objects>
+                <navigationController id="Z4f-oL-in6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hmC-Nh-0iR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AE6-9Z-gF0" kind="relationship" relationship="rootViewController" id="XT7-3L-dAa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KpQ-Ze-ppl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-807" y="498"/>
+        </scene>
+    </scenes>
+</document>

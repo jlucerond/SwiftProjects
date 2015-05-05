@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81819A81ABDBB1A008B20A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81819A71ABDBB1A008B20A1 /* AppDelegate.swift */; };
+		D81819AB1ABDBB1A008B20A1 /* Soundboard2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D81819A91ABDBB1A008B20A1 /* Soundboard2.xcdatamodeld */; };
+		D81819AD1ABDBB1A008B20A1 /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81819AC1ABDBB1A008B20A1 /* SoundListViewController.swift */; };
+		D81819B01ABDBB1A008B20A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81819AE1ABDBB1A008B20A1 /* Main.storyboard */; };
+		D81819B21ABDBB1A008B20A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81819B11ABDBB1A008B20A1 /* Images.xcassets */; };
+		D81819B51ABDBB1A008B20A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81819B31ABDBB1A008B20A1 /* LaunchScreen.xib */; };
+		D81819C11ABDBB1A008B20A1 /* Soundboard2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81819C01ABDBB1A008B20A1 /* Soundboard2Tests.swift */; };
+		D8A7D3391ABF8D5D00505B1A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7D3381ABF8D5D00505B1A /* Sound.swift */; };
+		D8FC991E1ABF383000A7EE31 /* FinalCountdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8FC991D1ABF383000A7EE31 /* FinalCountdown.mp3 */; };
+		D8FC99221ABF43B000A7EE31 /* NewSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC99211ABF43B000A7EE31 /* NewSoundViewController.swift */; };
+		D8FC99241ABF4EB700A7EE31 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FC99231ABF4EB700A7EE31 /* sound.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D81819BB1ABDBB1A008B20A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D818199A1ABDBB1A008B20A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81819A11ABDBB1A008B20A1;
+			remoteInfo = Soundboard2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81819A21ABDBB1A008B20A1 /* Soundboard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81819A61ABDBB1A008B20A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81819A71ABDBB1A008B20A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D81819AA1ABDBB1A008B20A1 /* Soundboard2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soundboard2.xcdatamodel; sourceTree = "<group>"; };
+		D81819AC1ABDBB1A008B20A1 /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
+		D81819AF1ABDBB1A008B20A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D81819B11ABDBB1A008B20A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D81819B41ABDBB1A008B20A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D81819BA1ABDBB1A008B20A1 /* Soundboard2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soundboard2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81819BF1ABDBB1A008B20A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81819C01ABDBB1A008B20A1 /* Soundboard2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soundboard2Tests.swift; sourceTree = "<group>"; };
+		D8A7D3381ABF8D5D00505B1A /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		D8FC991D1ABF383000A7EE31 /* FinalCountdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FinalCountdown.mp3; path = ../FinalCountdown.mp3; sourceTree = "<group>"; };
+		D8FC99211ABF43B000A7EE31 /* NewSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoundViewController.swift; sourceTree = "<group>"; };
+		D8FC99231ABF4EB700A7EE31 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D818199F1ABDBB1A008B20A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81819B71ABDBB1A008B20A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81819991ABDBB1A008B20A1 = {
+			isa = PBXGroup;
+			children = (
+				D81819A41ABDBB1A008B20A1 /* Soundboard2 */,
+				D81819BD1ABDBB1A008B20A1 /* Soundboard2Tests */,
+				D81819A31ABDBB1A008B20A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81819A31ABDBB1A008B20A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81819A21ABDBB1A008B20A1 /* Soundboard2.app */,
+				D81819BA1ABDBB1A008B20A1 /* Soundboard2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81819A41ABDBB1A008B20A1 /* Soundboard2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7D3381ABF8D5D00505B1A /* Sound.swift */,
+				D8FC991D1ABF383000A7EE31 /* FinalCountdown.mp3 */,
+				D81819A71ABDBB1A008B20A1 /* AppDelegate.swift */,
+				D81819AC1ABDBB1A008B20A1 /* SoundListViewController.swift */,
+				D8FC99211ABF43B000A7EE31 /* NewSoundViewController.swift */,
+				D81819AE1ABDBB1A008B20A1 /* Main.storyboard */,
+				D81819B11ABDBB1A008B20A1 /* Images.xcassets */,
+				D81819B31ABDBB1A008B20A1 /* LaunchScreen.xib */,
+				D81819A91ABDBB1A008B20A1 /* Soundboard2.xcdatamodeld */,
+				D81819A51ABDBB1A008B20A1 /* Supporting Files */,
+			);
+			path = Soundboard2;
+			sourceTree = "<group>";
+		};
+		D81819A51ABDBB1A008B20A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC99231ABF4EB700A7EE31 /* sound.png */,
+				D81819A61ABDBB1A008B20A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D81819BD1ABDBB1A008B20A1 /* Soundboard2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D81819C01ABDBB1A008B20A1 /* Soundboard2Tests.swift */,
+				D81819BE1ABDBB1A008B20A1 /* Supporting Files */,
+			);
+			path = Soundboard2Tests;
+			sourceTree = "<group>";
+		};
+		D81819BE1ABDBB1A008B20A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81819BF1ABDBB1A008B20A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81819A11ABDBB1A008B20A1 /* Soundboard2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81819C41ABDBB1A008B20A1 /* Build configuration list for PBXNativeTarget "Soundboard2" */;
+			buildPhases = (
+				D818199E1ABDBB1A008B20A1 /* Sources */,
+				D818199F1ABDBB1A008B20A1 /* Frameworks */,
+				D81819A01ABDBB1A008B20A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundboard2;
+			productName = Soundboard2;
+			productReference = D81819A21ABDBB1A008B20A1 /* Soundboard2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81819B91ABDBB1A008B20A1 /* Soundboard2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81819C71ABDBB1A008B20A1 /* Build configuration list for PBXNativeTarget "Soundboard2Tests" */;
+			buildPhases = (
+				D81819B61ABDBB1A008B20A1 /* Sources */,
+				D81819B71ABDBB1A008B20A1 /* Frameworks */,
+				D81819B81ABDBB1A008B20A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81819BC1ABDBB1A008B20A1 /* PBXTargetDependency */,
+			);
+			name = Soundboard2Tests;
+			productName = Soundboard2Tests;
+			productReference = D81819BA1ABDBB1A008B20A1 /* Soundboard2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D818199A1ABDBB1A008B20A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Joe Lucero";
+				TargetAttributes = {
+					D81819A11ABDBB1A008B20A1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D81819B91ABDBB1A008B20A1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D81819A11ABDBB1A008B20A1;
+					};
+				};
+			};
+			buildConfigurationList = D818199D1ABDBB1A008B20A1 /* Build configuration list for PBXProject "Soundboard2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81819991ABDBB1A008B20A1;
+			productRefGroup = D81819A31ABDBB1A008B20A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81819A11ABDBB1A008B20A1 /* Soundboard2 */,
+				D81819B91ABDBB1A008B20A1 /* Soundboard2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81819A01ABDBB1A008B20A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81819B01ABDBB1A008B20A1 /* Main.storyboard in Resources */,
+				D8FC991E1ABF383000A7EE31 /* FinalCountdown.mp3 in Resources */,
+				D81819B51ABDBB1A008B20A1 /* LaunchScreen.xib in Resources */,
+				D81819B21ABDBB1A008B20A1 /* Images.xcassets in Resources */,
+				D8FC99241ABF4EB700A7EE31 /* sound.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81819B81ABDBB1A008B20A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D818199E1ABDBB1A008B20A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81819AD1ABDBB1A008B20A1 /* SoundListViewController.swift in Sources */,
+				D8A7D3391ABF8D5D00505B1A /* Sound.swift in Sources */,
+				D8FC99221ABF43B000A7EE31 /* NewSoundViewController.swift in Sources */,
+				D81819A81ABDBB1A008B20A1 /* AppDelegate.swift in Sources */,
+				D81819AB1ABDBB1A008B20A1 /* Soundboard2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81819B61ABDBB1A008B20A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81819C11ABDBB1A008B20A1 /* Soundboard2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D81819BC1ABDBB1A008B20A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81819A11ABDBB1A008B20A1 /* Soundboard2 */;
+			targetProxy = D81819BB1ABDBB1A008B20A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D81819AE1ABDBB1A008B20A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81819AF1ABDBB1A008B20A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D81819B31ABDBB1A008B20A1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81819B41ABDBB1A008B20A1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D81819C21ABDBB1A008B20A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81819C31ABDBB1A008B20A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81819C51ABDBB1A008B20A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Soundboard2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D81819C61ABDBB1A008B20A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Soundboard2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D81819C81ABDBB1A008B20A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Soundboard2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundboard2.app/Soundboard2";
+			};
+			name = Debug;
+		};
+		D81819C91ABDBB1A008B20A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Soundboard2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundboard2.app/Soundboard2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D818199D1ABDBB1A008B20A1 /* Build configuration list for PBXProject "Soundboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81819C21ABDBB1A008B20A1 /* Debug */,
+				D81819C31ABDBB1A008B20A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81819C41ABDBB1A008B20A1 /* Build configuration list for PBXNativeTarget "Soundboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81819C51ABDBB1A008B20A1 /* Debug */,
+				D81819C61ABDBB1A008B20A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81819C71ABDBB1A008B20A1 /* Build configuration list for PBXNativeTarget "Soundboard2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81819C81ABDBB1A008B20A1 /* Debug */,
+				D81819C91ABDBB1A008B20A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D81819A91ABDBB1A008B20A1 /* Soundboard2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D81819AA1ABDBB1A008B20A1 /* Soundboard2.xcdatamodel */,
+			);
+			currentVersion = D81819AA1ABDBB1A008B20A1 /* Soundboard2.xcdatamodel */;
+			path = Soundboard2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D818199A1ABDBB1A008B20A1 /* Project object */;
+}
